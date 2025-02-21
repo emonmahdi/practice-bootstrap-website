@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple web page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <div class="container">
+                <a href="#" class="navbar-brand py-o">
+                    <img src="images/bd.png" class="logo"  alt="bd-logo">BD
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li id="myWatch" class="tex-white text-xl"></li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                        
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a href="#" class="dropdown-item">Service One.</a></li>
+                                <li><a href="#" class="dropdown-item">Service Two</a></li>
+                                <li><a href="#" class="dropdown-item">Service Three.</a></li>
+                            </ul>
+                        </li> 
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+         
+         
+    </header>
+    <section class="">
+        <div class="container-fluid">
+            <div class="col ">
+                <div class="card card-body border-0 bg-light rounded-0 px-0">
+                    <h3 class="text-center">About US  </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <td> 
+                                    <select name="" id="" class="form-control">
+                                        <option value="">-- Select Band Name --</option>
+                                        <option value="">Articel</option>
+                                        <option value="">Trainweek</option>
+                                        <option value="">Minerva</option>
+                                        <option value="">Warefaz</option>
+                                    </select>
+                                </td>
+                                <td> 
+                                    <select name="" id="" class="form-control">
+                                        <option value="">-- Select Song Year Name --</option>
+                                        <option value="">2022</option>
+                                        <option value="">2023</option>
+                                        <option value="">2024</option>
+                                        <option value="">2025</option>
+                                    </select>
+                                </td>
+                                <td align="center">
+                                    <button type="button" class="btn btn-dark rounded-0 px-5" id="searchBtn">Search</button>
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="3" id="searchRes"  class="text-center"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+     
+    <section class="py-5">
+       <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <ul class="nav nav-tabs">
+                        <li><a href="#home" data-bs-toggle="tab" class="nav-link active">Home</a></li>
+                        <li><a href="#about" data-bs-toggle="tab" class="nav-link">About</a></li>
+                        <li><a href="#contact" data-bs-toggle="tab" class="nav-link">Contact</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="home">
+                            <h2>This is home heading</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt soluta nam labore voluptatem rerum eveniet. Minima animi molestiae iste aliquid!</p>
+                        </div>
+                        <div class="tab-pane fade show" id="about">
+                            <h2>This is about heading</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt soluta nam labore voluptatem rerum eveniet. Minima animi molestiae iste aliquid!</p>
+                        </div>
+                        <div class="tab-pane fade show" id="contact">
+                            <h2>This is contact heading</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt soluta nam labore voluptatem rerum eveniet. Minima animi molestiae iste aliquid!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <ul class="nav nav-pills">
+                        <li><a href="#homePill" data-bs-toggle="pill" class="nav-link active">Home</a></li>
+                        <li><a href="#aboutPill" data-bs-toggle="pill" class="nav-link">About</a></li>
+                        <li><a href="#contactPill" data-bs-toggle="pill" class="nav-link">Contact</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="homePill">
+                            <h2>This is home heading</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt soluta nam labore voluptatem rerum eveniet. Minima animi molestiae iste aliquid!</p>
+                        </div>
+                        <div class="tab-pane fade show" id="aboutPill">
+                            <h2>This is about heading</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt soluta nam labore voluptatem rerum eveniet. Minima animi molestiae iste aliquid!</p>
+                        </div>
+                        <div class="tab-pane fade show" id="contactPill">
+                            <h2>This is contact heading</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt soluta nam labore voluptatem rerum eveniet. Minima animi molestiae iste aliquid!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           </div>
+       </div>
+    </section>
+    <!-- Accordion -->
+     <section>
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-6">
+                    <div class="accordion" id="accordionFaq">
+                        <div class="card">
+                            <div class="card-header" data-bs-toggle="collapse"  data-bs-target="#contentOne">
+                                <button type="button" class="btn btn-link w-100 text-decoration-none">This is content One</button>
+                            </div>
+                            <div class="card-body collapse show" id="contentOne" data-bs-parent="#accordionFaq">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, harum?</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" data-bs-toggle="collapse" data-bs-target="#contentTwo">
+                                <button type="button" class="btn btn-link w-100 text-decoration-none">This is content Two</button>
+                            </div>
+                            <div class="card-body collapse" id="contentTwo"  data-bs-parent="#accordionFaq">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, harum?</p>
+                            </div>
+                        </div>
+                        <div class="card" >
+                            <div class="card-header" data-bs-toggle="collapse"  data-bs-target="#contentThree">
+                                <button type="button" class="btn btn-link w-100 text-decoration-none">This is content Three</button>
+                            </div>
+                            <div class="card-body collapse" id="contentThree"  data-bs-parent="#accordionFaq">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, harum?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <button class="btn btn-dark" data-bs-target="#myModal" data-bs-toggle="modal">Modal</button>
+                </div>
+            </div>
+        </div>
+     </section>
+       <!-- Footer -->
+        <footer>
+            <section class="py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card card-body">
+                                <h3>Company Name</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, tenetur?</p>
+                                <ul class="d-flex gap-3 align-item-center">
+                                    <li class="list-unstyled"><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li class="list-unstyled"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li class="list-unstyled"><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div> 
+                        <div class="col-md-4">
+                            <div class="card card-body">
+                                <h3>Company Name</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, tenetur?</p>
+                                <ul class="d-flex gap-3 align-item-center">
+                                    <li class="list-unstyled"><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li class="list-unstyled"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li class="list-unstyled"><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div> 
+                        <div class="col-md-4">
+                            <div class="card card-body">
+                                <h3>Company Name</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, tenetur?</p>
+                                <ul class="d-flex gap-3 align-item-center">
+                                    <li class="list-unstyled"><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li class="list-unstyled"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li class="list-unstyled"><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="">
+                    <div class="row">
+                        <div class="col text-center bg-dark text-light">
+                            <p>copyright &copy;2025 all right reserved</p>
+                        </div>
+                    </div> 
+                </div>
+            </section>
+            <section></section>
+        </footer>
+
+
+        <!-- Modal -->
+         <div class="modal fade" id="myModal">
+            <div class="modal-dialog  modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2>Modal header</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>This is modal Boby</p>
+                    </div>
+                    <div class="modal-footer">
+                        <p>Modal Footer</p>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+
+         <script src="js/bootstrap.bundle.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+         <script src="js/all.min.js"></script>
+         <script src="js/script.js"></script>
+</body>
+
+</html>
