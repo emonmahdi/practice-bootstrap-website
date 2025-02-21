@@ -7,8 +7,38 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-    <h1>Welcome to My Software Firm</h1>
-    <button class="btn btn-danger">Click</button>
+    <header>
+        <nav class="navbar navbar-expand-md bg-primary navbar-primary">
+            <div class="container">
+                <a href="#" class="navbar-brand py-o">
+                    BD Soft
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li id="myWatch"></li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                        
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a href="#" class="dropdown-item">Service One.</a></li>
+                                <li><a href="#" class="dropdown-item">Service Two</a></li>
+                                <li><a href="#" class="dropdown-item">Service Three.</a></li>
+                            </ul>
+                        </li> 
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
